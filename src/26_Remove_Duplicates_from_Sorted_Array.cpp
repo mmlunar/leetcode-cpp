@@ -2,6 +2,7 @@
 #include <vector>
 #include <cassert>
 #include <string>
+#include "CustomAssert.h"
 
 using namespace std;
 
@@ -25,29 +26,6 @@ class Solution
             return j;
         }
 };
-
-class CustomAssert
-{
-    public:
-        static void run(int x, int y)
-        {
-            if(x != y)
-            {
-                cout<<"Expected: "<<x<<", Actual: "<<y<<endl;
-                assert(x == y);
-            }
-        }
-
-        static void run(int x, int y, string message)
-        {
-            if(x != y)
-            {
-                cout<<message<<" Expected: "<<x<<"Actual: "<<y<<endl;
-                assert(x ==y);
-            }
-        }
-};
-
 
 int main()
 {
