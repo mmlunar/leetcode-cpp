@@ -55,6 +55,8 @@ int main()
     }
 
     cout<<"All tests passed!";
+
+    return 0;
 }
 
 /*
