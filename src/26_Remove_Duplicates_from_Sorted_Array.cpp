@@ -58,3 +58,12 @@ int main()
 
     cout<<"All tests passed!";
 }
+
+/*
+Two pointer is the key.
+Pointer 1: Traverse the whole array.
+Pointer 2: Increemnt only when you need to update the value.
+
+The value only needs to be updated when current number is not equals to the immediately previous number. 
+Cause only then we can say that we have a new value.
+*/
