@@ -94,4 +94,6 @@ the best option is to check whether the current value is equals the two index
 eariler values. If not only then we can add it to the array. Otherwise not.
 
 One corner case is the array size smaller than 2. Then we can simply return without doing anything.
+
+Alternatively(solution 2), we can count the duplicates and ignore updes when count > 2.
 */
