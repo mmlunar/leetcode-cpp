@@ -63,7 +63,7 @@ same value a.k.a. candidate is choosen. Otherwise decrement the counter. If the 
 choose the wrong winner. Therefore, take the next candidate and check whether that one is winner or not. Who 
 eventually survives will be the winner.
 
-The step 2, ot that algorithm is not required for this problem. Because, for this one it is ensured that
+The step 2, of that algorithm is not required for this problem. Because, for this one it is ensured that
 there will always be an unique winner a.k.a. majority element. Otherwise we just need to count
 whether the count votes is greater than the half of the total votes or not. If not then there will be no winner.
 
