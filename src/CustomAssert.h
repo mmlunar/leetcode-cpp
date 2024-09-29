@@ -8,8 +8,11 @@
 class CustomAssert 
 {
     public:
-        static void run(int x, int y);
-        static void run(int x, int y, std::string message);
+        template <typename T>
+        static void run(T x, T y);
+
+        template <typename T>
+        static void run(T x, T y, const std::string message);
 };
 
 #endif // CUSTOMASSERT_H

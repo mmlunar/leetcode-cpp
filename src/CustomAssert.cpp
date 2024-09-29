@@ -1,6 +1,7 @@
 #include "CustomAssert.h"
 
-void CustomAssert::run(int x, int y) 
+template <typename T>
+void CustomAssert::run(T x, T y) 
 {
     if (x != y) 
     {
@@ -9,7 +10,8 @@ void CustomAssert::run(int x, int y)
     assert(x == y);
 }
 
-void CustomAssert::run(int x, int y, std::string message) 
+template <typename T>
+void CustomAssert::run(T x, T y, const std::string message)
 {
     if (x != y) 
     {
@@ -17,3 +19,14 @@ void CustomAssert::run(int x, int y, std::string message)
     }
     assert(x == y);
 }
+
+// Explicit instantiation
+template void CustomAssert::run<int>(int, int);
+template void CustomAssert::run<bool>(bool, bool);
+template void CustomAssert::run<double>(double, double);
+template void CustomAssert::run<std::string>(std::string, std::string);
+
+template void CustomAssert::run<int>(int, int, const std::string);
+template void CustomAssert::run<bool>(bool, bool, const std::string);
+template void CustomAssert::run<double>(double, double, const std::string);
+template void CustomAssert::run<std::string>(std::string, std::string, const std::string);
