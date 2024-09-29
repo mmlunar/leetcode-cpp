@@ -56,10 +56,9 @@ int main()
 }
 
 /*
-For this problem, one important point is:
+Greedy!
 
-- We do not need to wait for the price to go at peak. For example: prices = [1,2,3]. 
-We can sell when price is 2 and then add addiitonal profit in the next step. That means, we just need
-to keep eye on the previous value. If it's smaller than current vlaue then add it as a profit. 
-Just imagine you are selling and then buying it again in case you have additional gain in the next stage.
+Start from the begeining and count max possible next step based on
+each step we can hop from current step. Do the same for the next iteration.
+After each iteration count jump as an increment of 1.
 */
