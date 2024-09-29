@@ -10,6 +10,7 @@
 | [80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [Remove Duplicates from Sorted Array II](https://github.com/mmlunar/leetcode-cpp/blob/main/src/80-remove-duplicates-from-sorted-array-ii.cpp)| Medium | Array, Two Pointers |O(n)/O(1) |
 | [169](https://leetcode.com/problems/majority-element/)| [Majority Element](https://github.com/mmlunar/leetcode-cpp/blob/main/src/169-majority-element.cpp)| Easy | Array, Moore's majority voting |O(n)/O(1) |
 | [189](https://leetcode.com/problems/rotate-array/)| [Rotate Array](https://github.com/mmlunar/leetcode-cpp/blob/main/src/189-rotate-array.cpp)| Medium | Array, Math |O(n)/O(1) |
+| [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Best Time to Buy and Sell Stock II](https://github.com/mmlunar/leetcode-cpp/blob/main/src/122-best-time-to-buy-and-sell-stock-ii.cpp)| Medium | Array |O(n)/O(1) |
 
 ## Category: Two Pointers
 
@@ -20,7 +21,6 @@
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
-
 | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Best Time to Buy and Sell Stock](https://github.com/mmlunar/leetcode-cpp/blob/main/src/121-best-time-to-buy-and-sell-stock.cpp)| Easy | Array, Sliding Window |O(n)/O(1) |
 
 ## Category: Matrix
