@@ -46,7 +46,7 @@ int main()
     for(int i = 0; i<n; i++) 
     {
         int k = solution.majorityElement(input[i]);
-        CustomAssert::run(output[i], k, "Test case failed.");
+        CustomAssert::run<int>(output[i], k, "Test case failed.");
     }
 
     cout<<"All tests passed!";

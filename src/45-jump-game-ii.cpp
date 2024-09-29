@@ -7,16 +7,22 @@ using namespace std;
 class Solution 
 {
     public:
-        int maxProfit(vector<int>& prices) 
+        int jump(vector<int>& nums) 
         {
-            int profit = 0;
+            int n=nums.size(), l=0, r=0, jumps=0;
 
-            for(int i = 1; i< prices.size(); i++)
+            while(r<n-1)
             {
-                profit += max(0, prices[i] - prices[i-1]);
+                int maxGo = 0;
+                for(int i=l; i<=r; i++)
+                {
+                    maxGo = max(maxGo, i+nums[i]);
+                }
+                l=r+1;
+                r=maxGo;
+                jumps++;
             }
-
-            return profit;
+            return jumps;
         }
 };
 
@@ -24,16 +30,14 @@ int main()
 {
     vector<vector<int>> nums 
     { 
-        {7,1,5,3,6,4},
-        {1,2,3,4,5},
-        {7,6,4,3,1},
+        {2,3,1,1,4},
+        {2,3,0,1,4},
     };
 
     vector<int> output 
     { 
-        7,
-        4,
-        0
+        2,
+        2,
     };
 
     int n = output.size();
@@ -42,8 +46,8 @@ int main()
 
     for(int i = 0; i<n; i++) 
     {
-        int result = solution.maxProfit(nums[i]);
-        CustomAssert::run<int>(output[i], result, "Value mismatch.");        
+        int result = solution.jump(nums[i]);
+        CustomAssert::run<int>(output[i], result, "Value mismatch.");
     }
 
     cout<<"All tests passed!";

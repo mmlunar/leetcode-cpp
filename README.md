@@ -137,3 +137,5 @@
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
+| [55](https://leetcode.com/problems/jump-game/)| [Jump Game](https://github.com/mmlunar/leetcode-cpp/blob/main/src/55-jump-game.cpp)| Medium | Array, Greedy |O(n)/O(1) |
+| [45](https://leetcode.com/problems/jump-game-ii/)| [Jump Game II](https://github.com/mmlunar/leetcode-cpp/blob/main/src/45-jump-game-ii.cpp)| Medium | Array, Greedy |O(n)/O(1) |

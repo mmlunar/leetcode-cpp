@@ -84,7 +84,7 @@ int main()
 
         for(int j=0; j<nums[i].size(); j++)
         {
-            CustomAssert::run(output[i][j], nums[i][j], "Value mismatch.");
+            CustomAssert::run<int>(output[i][j], nums[i][j], "Value mismatch.");
         }
     }
 

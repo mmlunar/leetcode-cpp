@@ -75,7 +75,7 @@ int main()
     for(int i = 0; i<n; i++) 
     {
         int k = solution.removeDuplicates(nums[i]);
-        CustomAssert::run(output[i].size(), k, "Array size mismatch.");
+        CustomAssert::run<int>(output[i].size(), k, "Array size mismatch.");
         sort(nums[i].begin(), nums[i].begin() + k);
         for(int j =0; j<k; j++)
         {

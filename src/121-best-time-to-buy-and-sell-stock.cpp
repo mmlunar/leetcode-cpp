@@ -42,7 +42,7 @@ int main()
     for(int i = 0; i<n; i++) 
     {
         int result = solution.maxProfit(nums[i]);
-        CustomAssert::run(output[i], result, "Value mismatch.");        
+        CustomAssert::run<int>(output[i], result, "Value mismatch.");        
     }
 
     cout<<"All tests passed!";
