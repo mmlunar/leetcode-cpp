@@ -28,6 +28,11 @@ $(TARGET): $(OBJ)
 # Custom rule to build and run the program
 run: $(TARGET)
 	./$(TARGET)
+	@echo  # This prints a newline
+	@if [ -z "$(NO_CLEAN)" ]; then \
+		echo "Starting the cleaning..."; \
+		$(MAKE) clean; \
+	fi
 
 # Clean up object files and executable
 clean:
