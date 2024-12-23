@@ -1,45 +1,9 @@
-# Ignore various IDE build files
-.vscode/
+# Directory to ignore
 src/.vscode/
-.idea/
-.vs/
+.vscode
 
-# Ignore C++ build files
-*.exe         # Executables (Windows)
-*.out         # Executable output (Linux/Unix)
-*.ilk         # Visual Studio incremental link file
-*.obj         # Object files
-*.o           # Object files
-*.pdb         # Program Database (debugging) files
-*.idb         # Incremental database (Visual Studio)
-*.lib         # Static libraries
-*.a           # Static libraries (Linux/Unix)
-*.so          # Shared libraries (Linux/Unix)
-*.dll         # Dynamic link libraries (Windows)
-*.dSYM/       # macOS debug symbols
-
-# Ignore build directories
-build/
-bin/
-
-# Ignore temporary files from IDEs or editors
-*.swp         # Vim swap files
-*.swo         # Vim backup files
-*.idea/       # IntelliJ IDEA project files (if you use IntelliJ)
-.DS_Store     # macOS Finder metadata
-
-# Ignore CMake build directories (if you're using CMake)
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Testing/
-
-# Ignore MSYS2 or MinGW files (if using MSYS2, MinGW, or similar)
-*.exe         # Executable files (MSYS2/MinGW)
-*.dll         # Dynamic libraries (MSYS2/MinGW)
-
-# Ignore backup or temporary files
-*~            # Backup files (e.g., from editors)
-*.bak         # Backup files (e.g., from editors)
-
-
+# Build files
+*.exe
+*.ilk
+*.obj
+*.pdb
