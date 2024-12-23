@@ -59,10 +59,15 @@ int main()
 }
 
 /*
-For this problem, one important point is:
+Greedy approach works to solve this problem.
 
-- We do not need to wait for the price to go at peak. For example: prices = [1,2,3]. 
-We can sell when price is 2 and then add addiitonal profit in the next step. That means, we just need
-to keep eye on the previous value. If it's smaller than current vlaue then add it as a profit. 
-Just imagine you are selling and then buying it again in case you have additional gain in the next stage.
+Each step we can calculate the maximum distance i.e. maxDest we can jump based on 2 info:
+1) Max distance at this moment a.k.a. maxDest
+2) Max we can go from current position i.e. (current position + current jump steps) or (i + nums[i])
+
+The max of 1 & 2 will be the maxDest.
+
+Now if maxDest is smaller than current position then we have to stop and declare it's not possible. That means return false.
+
+In then end if maxDest is greater than or equals last step i.e n-1 then return true.
 */

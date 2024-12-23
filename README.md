@@ -11,6 +11,7 @@
 | [169](https://leetcode.com/problems/majority-element/)| [Majority Element](https://github.com/mmlunar/leetcode-cpp/blob/main/src/169-majority-element.cpp)| Easy | Array, Moore's majority voting |O(n)/O(1) |
 | [189](https://leetcode.com/problems/rotate-array/)| [Rotate Array](https://github.com/mmlunar/leetcode-cpp/blob/main/src/189-rotate-array.cpp)| Medium | Array, Math |O(n)/O(1) |
 | [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Best Time to Buy and Sell Stock II](https://github.com/mmlunar/leetcode-cpp/blob/main/src/122-best-time-to-buy-and-sell-stock-ii.cpp)| Medium | Array |O(n)/O(1) |
+| [274](https://leetcode.com/problems/h-index/)| [H-Index](https://github.com/mmlunar/leetcode-cpp/blob/main/src/274-h-index.cpp)| Medium | Array, Counting Sort |O(n)/O(n) |
 
 ## Category: Two Pointers
 
@@ -72,6 +73,7 @@
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
+| [743](https://leetcode.com/problems/network-delay-time/)| [743. Network Delay Time](https://github.com/mmlunar/leetcode-cpp/blob/main/src/743-network-delay-time.cpp)| Medium | Graph, Heap, Shortest Path |O(n)/O(n) |
 
 ## Category: Trie
 
