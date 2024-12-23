@@ -4,16 +4,6 @@ src/.vscode/
 .idea/
 .vs/
 
-# Ignore build directories
-build/
-bin/
-
-# Ignore temporary files from IDEs or editors
-*.swp         # Vim swap files
-*.swo         # Vim backup files
-*.idea/       # IntelliJ IDEA project files (if you use IntelliJ)
-.DS_Store     # macOS Finder metadata
-
 # Ignore C++ build files
 *.exe         # Executables (Windows)
 *.out         # Executable output (Linux/Unix)
@@ -27,6 +17,16 @@ bin/
 *.so          # Shared libraries (Linux/Unix)
 *.dll         # Dynamic link libraries (Windows)
 *.dSYM/       # macOS debug symbols
+
+# Ignore build directories
+build/
+bin/
+
+# Ignore temporary files from IDEs or editors
+*.swp         # Vim swap files
+*.swo         # Vim backup files
+*.idea/       # IntelliJ IDEA project files (if you use IntelliJ)
+.DS_Store     # macOS Finder metadata
 
 # Ignore CMake build directories (if you're using CMake)
 CMakeFiles/

@@ -27,7 +27,7 @@ $(TARGET): $(OBJ)
 
 # Custom rule to build and run the program
 run: $(TARGET)
-	./$(TARGET)  # Replace with $(TARGET).exe on Windows if needed
+	./$(TARGET)
 
 # Clean up object files and executable
 clean:
