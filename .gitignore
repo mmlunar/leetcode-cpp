@@ -8,3 +8,6 @@ src/.vscode/
 *.obj
 *.pdb
 *.o
+
+#Test files
+**/test.cpp
