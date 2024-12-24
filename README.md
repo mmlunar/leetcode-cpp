@@ -12,6 +12,8 @@
 | [189](https://leetcode.com/problems/rotate-array/)| [Rotate Array](https://github.com/mmlunar/leetcode-cpp/blob/main/src/189-rotate-array.cpp)| Medium | Array, Math |O(n)/O(1) |
 | [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Best Time to Buy and Sell Stock II](https://github.com/mmlunar/leetcode-cpp/blob/main/src/122-best-time-to-buy-and-sell-stock-ii.cpp)| Medium | Array |O(n)/O(1) |
 | [274](https://leetcode.com/problems/h-index/)| [H-Index](https://github.com/mmlunar/leetcode-cpp/blob/main/src/274-h-index.cpp)| Medium | Array, Counting Sort |O(n)/O(n) |
+| [217](https://leetcode.com/problems/contains-duplicate/)| [Contains Duplicate](https://github.com/mmlunar/leetcode-cpp/blob/main/src/217-contains-duplicate.cpp)| Easy | Array, Hash Table, Sorting |O(n)/O(n) |
+| [242](https://leetcode.com/problems/valid-anagram/)| [Valid Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/242-valid-anagram.cpp)| Easy | Array, Hash Table, Sorting |O(n)/O(1) |
 
 ## Category: Two Pointers
 
