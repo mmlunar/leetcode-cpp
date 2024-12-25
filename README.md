@@ -16,6 +16,7 @@
 | [242](https://leetcode.com/problems/valid-anagram/)| [Valid Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/242-valid-anagram.cpp)| Easy | Array, Hash Table, Sorting |O(n)/O(1) |
 | [1](https://leetcode.com/problems/two-sum/)| [Valid Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/1-two-sum.cpp)| Easy | Array, Hash Table |O(n)/O(n) |
 | [49](https://leetcode.com/problems/group-anagrams/)| [Group Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/49-group-anagrams.cpp)| Medium | Array, Hash Table, String |O(mn)/ O(mn) |
+| [347](https://leetcode.com/problems/top-k-frequent-elements/)| [Top K Frequent Elements](https://github.com/mmlunar/leetcode-cpp/blob/main/src/347-top-k-frequent-elements.cpp)| Medium | Array, Hash Table, Bucket Sort |O(n)/ O(n) |
 
 ## Category: Two Pointers
 
