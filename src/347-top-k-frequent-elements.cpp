@@ -83,10 +83,14 @@ int main()
 }
 
 /*
-Two pointer is the key.
-Pointer 1: Traverse the whole array.
-Pointer 2: Increemnt only when you need to update the value.
+Little tricky if you see this problem first time.
 
-The value only needs to be updated when current number is not equals to the immediately previous number. 
-Cause only then we can say that we have a new value.
+Take the map of all numbers and their frequency.
+
+Then make a map with frequency and the corresponding numbers who have that frequency.
+
+This frequency map can have at most n values 1, .., n where n is the size of the array. 
+Cause, for a n sized array no number can occur more than n times (modified pegion hole principle).
+
+Therefore we can now start checking from frequency n and decreneting the check to get first k vlaues.
 */

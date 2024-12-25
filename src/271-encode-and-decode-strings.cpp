@@ -79,10 +79,13 @@ int main()
 }
 
 /*
-Two pointer is the key.
-Pointer 1: Traverse the whole array.
-Pointer 2: Increemnt only when you need to update the value.
+Algorithm depends on how we encode.
 
-The value only needs to be updated when current number is not equals to the immediately previous number. 
-Cause only then we can say that we have a new value.
+One naive approach can be use a non-ASCII char as delimitter and then split the string for decoding.
+
+We can improve this approach by using any random char (in this solution we use '#') but before that we log the length of the current string.
+
+As a result, at the time of decoding we can simply traverse until get that delimiter (i.e. '#'). This will give the length of the current string.
+
+Now simple copy the chars from the encoded string based on the length we get and continue this process.
 */

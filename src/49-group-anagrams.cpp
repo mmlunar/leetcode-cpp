@@ -111,10 +111,9 @@ int main()
 }
 
 /*
-Two pointer is the key.
-Pointer 1: Traverse the whole array.
-Pointer 2: Increemnt only when you need to update the value.
+HashMap is the trick.
 
-The value only needs to be updated when current number is not equals to the immediately previous number. 
-Cause only then we can say that we have a new value.
+Map all words based on ther char count equivalent string as a key. This ensures same anagrams are under the same key.
+
+Then we just need to collect all corresponding values of the keys.
 */

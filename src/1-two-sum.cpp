@@ -72,10 +72,7 @@ int main()
 }
 
 /*
-Two pointer is the key.
-Pointer 1: Traverse the whole array.
-Pointer 2: Increemnt only when you need to update the value.
+Hashmap.
 
-The value only needs to be updated when current number is not equals to the immediately previous number. 
-Cause only then we can say that we have a new value.
+Hashmap is keeping track all previous numbers and their occurance is checked at constant time. This eventually makes O(n) solution.
 */

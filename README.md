@@ -14,9 +14,13 @@
 | [274](https://leetcode.com/problems/h-index/)| [H-Index](https://github.com/mmlunar/leetcode-cpp/blob/main/src/274-h-index.cpp)| Medium | Array, Counting Sort |O(n)/O(n) |
 | [217](https://leetcode.com/problems/contains-duplicate/)| [Contains Duplicate](https://github.com/mmlunar/leetcode-cpp/blob/main/src/217-contains-duplicate.cpp)| Easy | Array, Hash Table, Sorting |O(n)/O(n) |
 | [242](https://leetcode.com/problems/valid-anagram/)| [Valid Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/242-valid-anagram.cpp)| Easy | Array, Hash Table, Sorting |O(n)/O(1) |
-| [1](https://leetcode.com/problems/two-sum/)| [Valid Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/1-two-sum.cpp)| Easy | Array, Hash Table |O(n)/O(n) |
+| [1](https://leetcode.com/problems/two-sum/)| [Two Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/1-two-sum.cpp)| Easy | Array, Hash Table |O(n)/O(n) |
 | [49](https://leetcode.com/problems/group-anagrams/)| [Group Anagram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/49-group-anagrams.cpp)| Medium | Array, Hash Table, String |O(mn)/ O(mn) |
 | [347](https://leetcode.com/problems/top-k-frequent-elements/)| [Top K Frequent Elements](https://github.com/mmlunar/leetcode-cpp/blob/main/src/347-top-k-frequent-elements.cpp)| Medium | Array, Hash Table, Bucket Sort |O(n)/ O(n) |
+| [271](https://leetcode.com/problems/encode-and-decode-strings/)| [Encode and Decode Strings](https://github.com/mmlunar/leetcode-cpp/blob/main/src/271-encode-and-decode-strings.cpp)| Medium | Array, String |O(m)/ O(1) |
+| [238](https://leetcode.com/problems/product-of-array-except-self/)| [Products of Array Except Self](https://github.com/mmlunar/leetcode-cpp/blob/main/src/238-product-of-array-except-self.cpp)| Medium | Array, Prefix Sum |O(n)/ O(n) |
+| [38](https://leetcode.com/problems/valid-sudoku/)| [Valid Sudoku](https://github.com/mmlunar/leetcode-cpp/blob/main/src/38-valid-sudoku.cpp)| Medium | Array, Hash Table, Bitmask |O(n^2)/ O(n) |
+| [128](https://leetcode.com/problems/longest-consecutive-sequence/)| [Longest Consecutive Sequence](https://github.com/mmlunar/leetcode-cpp/blob/main/src/128-longest-consecutive-sequence.cpp)| Medium | Array, Hash Set |O(n)/ O(n) |
 
 ## Category: Two Pointers
 
