@@ -26,6 +26,12 @@
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
+| [125](https://leetcode.com/problems/valid-palindrome/)| [Valid Palindrome](https://github.com/mmlunar/leetcode-cpp/blob/main/src/125-valid-palindrome.cpp)| Easy | Two Pointers, String |O(n)/ O(1) |
+| [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Two Sum II - Input Array Is Sorted](https://github.com/mmlunar/leetcode-cpp/blob/main/src/167-two-sum-ii-input-array-is-sorted.cpp)| Medium | Two Pointers, Array, Binary Search |O(n)/ O(1) |
+| [15](https://leetcode.com/problems/3sum/)| [3Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/15-3sum.cpp)| Medium | Two Pointers, Array, Sorting |O(n^2)/ O(n)(Sorting) |
+| [18](https://leetcode.com/problems/4sum/)| [4Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/18-4sum.cpp)| Medium | Two Pointers, Array, Sorting |O(n^3)/ O(n)(Sorting) |
+| [11](https://leetcode.com/problems/container-with-most-water/)| [Container With Most Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/11-container-with-most-water.cpp)| Medium | Two Pointers, Array, Greedy |O(n)/ O(1) |
+| [11](https://leetcode.com/problems/container-with-most-water/)| [Container With Most Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/11-container-with-most-water.cpp)| Medium | Two Pointers, Array, Greedy |O(n)/ O(1) |
 
 ## Category: Sliding Window
 
@@ -52,6 +58,7 @@
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
+| [456](https://leetcode.com/problems/132-pattern/)| [132 Pattern](https://github.com/mmlunar/leetcode-cpp/blob/main/src/456-132-pattern.cpp)| Medium | Array, Binary Search, Stack, Monotonic Stack |O(n)/ O(n)|
 
 ## Category: Linked List
 
