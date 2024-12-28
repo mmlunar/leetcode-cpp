@@ -31,13 +31,18 @@
 | [15](https://leetcode.com/problems/3sum/)| [3Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/15-3sum.cpp)| Medium | Two Pointers, Array, Sorting |O(n^2)/ O(n)(Sorting) |
 | [18](https://leetcode.com/problems/4sum/)| [4Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/18-4sum.cpp)| Medium | Two Pointers, Array, Sorting |O(n^3)/ O(n)(Sorting) |
 | [11](https://leetcode.com/problems/container-with-most-water/)| [Container With Most Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/11-container-with-most-water.cpp)| Medium | Two Pointers, Array, Greedy |O(n)/ O(1) |
-| [11](https://leetcode.com/problems/container-with-most-water/)| [Container With Most Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/11-container-with-most-water.cpp)| Medium | Two Pointers, Array, Greedy |O(n)/ O(1) |
+| [42](https://leetcode.com/problems/trapping-rain-water/)| [Trapping Rain Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/42-trapping-rain-water.cpp)| Medium | Array, Two Pointers, Dynamic Programming |O(n)/ O(1) |
 
 ## Category: Sliding Window
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
 | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Best Time to Buy and Sell Stock](https://github.com/mmlunar/leetcode-cpp/blob/main/src/121-best-time-to-buy-and-sell-stock.cpp)| Easy | Array, Sliding Window |O(n)/O(1) |
+| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Longest Substring Without Repeating Characters](https://github.com/mmlunar/leetcode-cpp/blob/main/src/3-longest-substring-without-repeating-characters.cpp)| Medium | String, Sliding Window, HashTable |O(n)/O(n) |
+| [424](https://leetcode.com/problems/longest-repeating-character-replacement/)| [Longest Repeating Character Replacement](https://github.com/mmlunar/leetcode-cpp/blob/main/src/424-longest-repeating-character-replacement.cpp)| Medium | String, Sliding Window, HashTable |O(n)/O(n) |
+| [567](https://leetcode.com/problems/permutation-in-string/)| [Permutation in String](https://github.com/mmlunar/leetcode-cpp/blob/main/src/567-permutation-in-string.cpp)| Medium | String, Sliding Window, HashTable |O(n)/O(1) |
+| [76](https://leetcode.com/problems/minimum-window-substring/)| [Minimum Window Substring](https://github.com/mmlunar/leetcode-cpp/blob/main/src/76-minimum-window-substring.cpp)| Hard | String, Sliding Window, HashTable |O(m+n)/O(m+n) |
+| [239](https://leetcode.com/problems/sliding-window-maximum/)| [Sliding Window Maximum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/239-sliding-window-maximum.cpp)| Hard | Array, Sliding Window, Monotonic Queue |O(n)/O(k) |
 
 ## Category: Matrix
 
