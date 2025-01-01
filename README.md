@@ -28,8 +28,8 @@
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
 | [125](https://leetcode.com/problems/valid-palindrome/)| [Valid Palindrome](https://github.com/mmlunar/leetcode-cpp/blob/main/src/125-valid-palindrome.cpp)| Easy | Two Pointers, String |O(n)/ O(1) |
 | [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Two Sum II - Input Array Is Sorted](https://github.com/mmlunar/leetcode-cpp/blob/main/src/167-two-sum-ii-input-array-is-sorted.cpp)| Medium | Two Pointers, Array, Binary Search |O(n)/ O(1) |
-| [15](https://leetcode.com/problems/3sum/)| [3Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/15-3sum.cpp)| Medium | Two Pointers, Array, Sorting |O(n^2)/ O(n)(Sorting) |
-| [18](https://leetcode.com/problems/4sum/)| [4Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/18-4sum.cpp)| Medium | Two Pointers, Array, Sorting |O(n^3)/ O(n)(Sorting) |
+| [15](https://leetcode.com/problems/3sum/)| [3Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/15-3sum.cpp)| Medium | Two Pointers, Array, Sorting |$O(n^2)$/ O(n)(Sorting) |
+| [18](https://leetcode.com/problems/4sum/)| [4Sum](https://github.com/mmlunar/leetcode-cpp/blob/main/src/18-4sum.cpp)| Medium | Two Pointers, Array, Sorting |$O(n^3)$/ O(n)(Sorting) |
 | [11](https://leetcode.com/problems/container-with-most-water/)| [Container With Most Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/11-container-with-most-water.cpp)| Medium | Two Pointers, Array, Greedy |O(n)/ O(1) |
 | [42](https://leetcode.com/problems/trapping-rain-water/)| [Trapping Rain Water](https://github.com/mmlunar/leetcode-cpp/blob/main/src/42-trapping-rain-water.cpp)| Medium | Array, Two Pointers, Dynamic Programming |O(n)/ O(1) |
 
@@ -64,6 +64,12 @@
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
 | [456](https://leetcode.com/problems/132-pattern/)| [132 Pattern](https://github.com/mmlunar/leetcode-cpp/blob/main/src/456-132-pattern.cpp)| Medium | Array, Binary Search, Stack, Monotonic Stack |O(n)/ O(n)|
+| [20](https://leetcode.com/problems/valid-parentheses/)| [Valid Parentheses](https://github.com/mmlunar/leetcode-cpp/blob/main/src/20-valid-parentheses.cpp)| Easy | String, Stack |O(n)/ O(n)|
+| [155](https://leetcode.com/problems/min-stack/)| [Min Stack](https://github.com/mmlunar/leetcode-cpp/blob/main/src/155-min-stack.cpp)| Medium | Design, Stack |O(n)/ O(n)|
+| [150](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| [Evaluate Reverse Polish Notation](https://github.com/mmlunar/leetcode-cpp/blob/main/src/150-evaluate-reverse-polish-notation.cpp)| Medium | Array, Math, Stack |O(n)/ O(n)|
+| [22](https://leetcode.com/problems/generate-parentheses/)| [Generate Parentheses](https://github.com/mmlunar/leetcode-cpp/blob/main/src/22-generate-parentheses.cpp)| Medium | String, Backtracking |$O\left( \frac{4^n}{\sqrt{n}} \right)$/ O(n)|
+| [739](https://leetcode.com/problems/daily-temperatures/)| [Daily Temperatures](https://github.com/mmlunar/leetcode-cpp/blob/main/src/739-daily-temperatures.cpp)| Medium | Array, Stack, Monotonic Stack |O(n)/ O(n)|
+| [853](https://leetcode.com/problems/car-fleet/)| [Car Fleet](https://github.com/mmlunar/leetcode-cpp/blob/main/src/853-car-fleet.cpp)| Medium | Array, Stack, Monotonic Stack, Sorting |O(nlog(n))/ O(n) (Sorting)|
 
 ## Category: Linked List
 
