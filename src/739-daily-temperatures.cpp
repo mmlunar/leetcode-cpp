@@ -104,9 +104,19 @@ int main()
 }
 
 /*
-Theare are two approaches.
+A monotonic decreasing stack for the reverse iterated array can solve the problem.
 
-In fisrt approach, the trick is to reverse the array. Then re-reverse first k elements and the rest so that they come back to their rotated position. This trick is not very intutitive and usually does not come to mind if not known before.
+The logic behind that is, at index i if temperature is t then we can ignore all 
+temperatures smaller than t after i. Cause the "greater" t will satisfy warm day condition regardless of their 
+values. And the topmost value of stack can satisfy the answer for index i.
 
-In the second approach, we are roating one by one values. The only constraint is roatation can create a cycle when gcd(k,n) > 1. Therefore, we are taking an offset and incrementing it when a cycle is detected (i.e. offset == prevIdx case).
+There is a second approach where we do not need the stack. This one just utilizes the values of results to get the warmer day. 
+The logic for this approach is like this:
+1. Start with the immediate next index i.e. (i+1)-th index. If this one is warmer than your current index then answer is 1.
+2. Otherwise, check the warmer day index that was mentioned by (i+1)-th index. Suppose that is j. We can ignore all other 
+values between (i+1)-th and j-th cause we know that they are nor warmer.
+3. This iteration will eventually provide the result and similar way we can finish the entire array.
+
+Second approach also makes sure that the time complexity is O(n). Cause, the iteration is similar to accessing a stack where an
+element is inserted or removed only at most once. As a result max iteration possible is O(2n) which is actually O(n).
 */

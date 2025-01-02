@@ -70,6 +70,7 @@
 | [22](https://leetcode.com/problems/generate-parentheses/)| [Generate Parentheses](https://github.com/mmlunar/leetcode-cpp/blob/main/src/22-generate-parentheses.cpp)| Medium | String, Backtracking |$O\left( \frac{4^n}{\sqrt{n}} \right)$/ O(n)|
 | [739](https://leetcode.com/problems/daily-temperatures/)| [Daily Temperatures](https://github.com/mmlunar/leetcode-cpp/blob/main/src/739-daily-temperatures.cpp)| Medium | Array, Stack, Monotonic Stack |O(n)/ O(n)|
 | [853](https://leetcode.com/problems/car-fleet/)| [Car Fleet](https://github.com/mmlunar/leetcode-cpp/blob/main/src/853-car-fleet.cpp)| Medium | Array, Stack, Monotonic Stack, Sorting |O(nlog(n))/ O(n) (Sorting)|
+| [84](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [Largest Rectangle In Histogram](https://github.com/mmlunar/leetcode-cpp/blob/main/src/84-largest-rectangle-in-histogram.cpp)| Hard | Array, Stack, Monotonic Stack |O(n)/ O(n) |
 
 ## Category: Linked List
 
@@ -126,6 +127,13 @@
 
 | Problem #| Title| Difficulty | Tag| Time/Space Complexity |
 |---------------------------------------------------------------|-------------------------------------------------------------------------|------------|------------------------------|-----------------------|
+| [704](https://leetcode.com/problems/binary-search/)| [Binary Search](https://github.com/mmlunar/leetcode-cpp/blob/main/src/704-binary-search.cpp)| Easy | Array, Binary Search |O(log n)/O(1) |
+| [74](https://leetcode.com/problems/search-a-2d-matrix/)| [Search a 2D Matrix](https://github.com/mmlunar/leetcode-cpp/blob/main/src/74-search-a-2d-matrix.cpp)| Medium | Array, Binary Search |O(log mn)/O(1) |
+| [875](https://leetcode.com/problems/koko-eating-bananas/)| [Koko Eating Bananas](https://github.com/mmlunar/leetcode-cpp/blob/main/src/875-koko-eating-bananas.cpp)| Medium | Array, Binary Search |O(n∗log m)/O(1) |
+| [153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Find Minimum in Rotated Sorted Array](https://github.com/mmlunar/leetcode-cpp/blob/main/src/153-find-minimum-in-rotated-sorted-array.cpp)| Medium | Array, Binary Search |O(log n)/O(1) |
+| [33](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Search in Rotated Sorted Array](https://github.com/mmlunar/leetcode-cpp/blob/main/src/33-search-in-rotated-sorted-array.cpp)| Medium | Array, Binary Search |O(log n)/O(1) |
+| [981](https://leetcode.com/problems/time-based-key-value-store/)| [Time Based Key-Value Store](https://github.com/mmlunar/leetcode-cpp/blob/main/src/981-time-based-key-value-store.cpp)| Medium | String, Binary Search, Hash Table |O(log n)/O(1) |
+| [4](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [ Median of Two Sorted Arrays](https://github.com/mmlunar/leetcode-cpp/blob/main/src/4-median-of-two-sorted-arrays.cpp)| Hard | Array, Binary Search, Divide and Conquer|O(log ($n_1+n_2$)/O(1) |
 
 ## Category: Heap
 
